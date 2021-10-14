@@ -14,6 +14,5 @@ export class Tab1Page implements OnInit{
     this.postsService.getPosts().subscribe( resp => {
       console.log(resp);
     });
-    
   }
 }
